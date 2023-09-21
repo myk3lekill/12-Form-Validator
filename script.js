@@ -45,7 +45,7 @@ function storeFormData() {
         phone: form.phone.value,
         email: form.email.value,
         website: form.website.value,
-        password: form.password.value
+        password: form.password.value //Code Review: this method of toring password is vulnerable to Hacks
     };
     //Do something with user data
     console.log(user)
